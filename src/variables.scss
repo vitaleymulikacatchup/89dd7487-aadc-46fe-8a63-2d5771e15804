@@ -1,0 +1,83 @@
+/* ============================================ */
+/* CSS/SCSS Variables Extracted from Source */
+/* Auto-generated from website cloning */
+/* ============================================ */
+
+/* ============================================ */
+/* CSS Custom Properties (use with var(--name)) */
+/* ALL CSS variables must be inside :root block */
+/* ============================================ */
+:root {
+  /* Colors */
+  --primary-cta: #ffcf40;
+  --color-primary-cta: var(--primary-cta);
+  --color-white: #fff;
+  --color-black: #000;
+  --secondary-cta: #fff;
+  --color-background: #fefef5; 
+  --card: #fdfdf0;
+  --accent: #facc15;
+  --background-accent: #ffbf00;
+  --foreground: #1a1a00;
+
+  /* Sizes */
+  --text-2xl: 5vw;
+  --text-7xl: 10vw;
+  --text-lg: 3.5vw;
+  --text-2xs: 2.5vw;
+  --text-6xl: 8.5vw;
+  --text-xl: 4.25vw;
+  --text-9xl: 14vw;
+  --text-8xl: 12vw;
+  --text-sm: 3vw;
+  --text-4xl: 7vw;
+  --text-5xl: 7.5vw;
+  --text-3xl: 6vw;
+  --text-xs: 2.75vw;
+  --theme-border-radius: calc(clamp(.5rem, .8vw, 1rem) * 1.25);
+  --theme-border-radius-capped: calc(clamp(.5rem, .8vw, 1rem) * 1.25);
+  
+  /* Typography */
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --font-sans: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --default-font-family: var(--font-sans);
+  --default-mono-font-family: var(--font-mono);
+  --font-weight-bold: 700;
+  --font-weight-semibold: 600;
+  --font-weight-medium: 500;
+
+  /* Spacing */
+  --spacing: .25rem;
+  --width-content-width: 80vw;
+  --width-carousel-item-4: var(--width-content-width);
+  --width-carousel-padding: calc((100vw - var(--width-content-width)) / 2 + 1px);
+  --width-carousel-padding-controls: calc((100vw - var(--width-content-width)) / 2 + 1px - var(--vw-1_5));
+  
+  /* Tw properties */
+  --tw-border-style: none;
+  --tw-ring-offset-color: #fff;
+  --tw-shadow-color: initial;
+  --tw-shadow-alpha: 100%;
+  --tw-drop-shadow-color: initial;
+  --tw-ring-color: initial;
+  --tw-inset-ring-color: initial;
+
+  /* Other */
+  --vw: clamp(.5rem, .8vw, 1rem);
+  --default-transition-duration: .15s;
+  --tw-duration: .6s;
+  --tw-ease: cubic-bezier(.2, 0, 0, 1);
+}
+
+/* ============================================ */
+/* Usage Guide */
+/* ============================================ */
+
+/* CSS Custom Properties (--var-name) */
+/* Use: color: var(--primary-color); */
+
+/* SCSS Variables ($var-name) */
+/* Use: color: $primary-color; */
+
+/* You can also use these in your Tailwind config */
+/* by importing this file or referencing the values */
